@@ -2,26 +2,31 @@
 {
     internal class Movie
     {
+        private string _title;
+        private int _priceCode;
+
+        public string Title => _title;
+
+        public int PriceCode => _priceCode;
+
         public const int Children = 2;
         public const int Regular = 0;
         public const int NewRelease = 1;
 
         public Movie(string title, int priceCode)
         {
-            Title = title;
-            PriceCode = priceCode;
+            _title = title;
+            _priceCode = priceCode;
         }
 
-        public string Title { get; }
+       
 
-        public int PriceCode { get; set; }
-
-        public double GetThisAmount(Movie movie, int dayRented)
+        public double GetAmount(int dayRented)
         {
             double thisAmount=0;
-            switch (movie.PriceCode)
+            switch (_priceCode)
             {
-                case Movie.Regular:
+                case Regular:
                 {
                     thisAmount += 2;
                     if (dayRented > 2)
@@ -30,12 +35,12 @@
                     }
                 }
                     break;
-                case Movie.NewRelease:
+                case NewRelease:
                 {
                     thisAmount += dayRented * 3;
                 }
                     break;
-                case Movie.Children:
+                case Children:
                 {
                     thisAmount += 1.5;
                     if (dayRented > 3)
