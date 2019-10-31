@@ -21,7 +21,7 @@ namespace Ch01
 
         public string Statement()
         {
-            string result = "Rental Record For " + Name + "\r\n";
+            var result = "Rental Record For " + Name + "\r\n";
             foreach (var rental in _rentals)
             {
                 //show figures for this rental

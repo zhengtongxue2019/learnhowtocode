@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88b232b-3c49-4c49-ac20-1d0f12065ad5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Customer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rental.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Rental.cs" afterDir="false" />
     </list>
@@ -26,11 +25,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Movie.cs" />
-        <option value="$PROJECT_DIR$/Rental.cs" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/TestCh01/Tests.cs" />
         <option value="$PROJECT_DIR$/Customer.cs" />
+        <option value="$PROJECT_DIR$/Rental.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572488037876</updated>
       <workItem from="1572488046549" duration="5260000" />
-      <workItem from="1572493858863" duration="1947000" />
+      <workItem from="1572493858863" duration="3321000" />
     </task>
     <servers />
   </component>
