@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Ch01
 {
     internal class Customer
     {
         private List<Rental> _rentals = new List<Rental>();
-        
+
         public string Name { get; }
-        
+
         public Customer(string name)
         {
             Name = name;
@@ -20,23 +21,26 @@ namespace Ch01
 
         public string Statement()
         {
-            double totalAmount = 0;
-            int frequentRenterPoints = 0;
             string result = "Rental Record For " + Name + "\r\n";
             foreach (var rental in _rentals)
             {
-                //add frequentRenterPoints
-                //frequentRenterPoints++;
-                frequentRenterPoints += rental.FrequentRenterPoints();
-
                 //show figures for this rental
-                result +=  rental.Movie.Title + ":" + rental.GetAmount() + "\r\n";
-                totalAmount += rental.GetAmount();
+                result += rental.Movie.Title + ":" + rental.GetAmount() + "\r\n";
             }
-            
-            result += "Amount owed is " + totalAmount + "\r\n";
-            result += "You earned " + frequentRenterPoints + " frequent renter points。" + "\r\n";
+
+            result += "Amount owed is " + GetTotalAmount() + "\r\n";
+            result += "You earned " +  GetFrequentRenterPoints() + " frequent renter points。" + "\r\n";
             return result;
+        }
+
+        private int GetFrequentRenterPoints()
+        {
+            return _rentals.Sum(rental => rental.FrequentRenterPoints());
+        }
+
+        private double GetTotalAmount()
+        {
+            return _rentals.Sum(rental => rental.GetAmount());
         }
     }
 }
