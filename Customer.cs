@@ -24,7 +24,6 @@ namespace Ch01
             var result = "Rental Record For " + Name + "\r\n";
             foreach (var rental in _rentals)
             {
-                //show figures for this rental
                 result += rental.Movie.Title + ":" + rental.GetAmount() + "\r\n";
             }
 
@@ -35,7 +34,7 @@ namespace Ch01
 
         private int GetFrequentRenterPoints()
         {
-            return _rentals.Sum(rental => rental.FrequentRenterPoints());
+            return _rentals.Sum(rental => rental.GetFrequentRenterPoints());
         }
 
         private double GetTotalAmount()

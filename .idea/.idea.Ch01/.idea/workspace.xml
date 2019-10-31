@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88b232b-3c49-4c49-ac20-1d0f12065ad5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ChildrenPrice.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewReleasePrice.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Price.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegularPrice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch01.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Ch01.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Customer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rental.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Rental.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/bin/Debug/Ch01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/Ch01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/bin/Debug/Ch01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/Ch01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/bin/Debug/TestCh01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/TestCh01.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/bin/Debug/TestCh01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/TestCh01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Ch01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Ch01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Ch01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Ch01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ch01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ch01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ch01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ch01.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +37,10 @@
     <setting file="file://$PROJECT_DIR$/Rental.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestCh01/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Price.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RegularPrice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChildrenPrice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NewReleasePrice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,8 +50,12 @@
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/TestCh01/Tests.cs" />
         <option value="$PROJECT_DIR$/Customer.cs" />
-        <option value="$PROJECT_DIR$/Movie.cs" />
         <option value="$PROJECT_DIR$/Rental.cs" />
+        <option value="$PROJECT_DIR$/Price.cs" />
+        <option value="$PROJECT_DIR$/RegularPrice.cs" />
+        <option value="$PROJECT_DIR$/ChildrenPrice.cs" />
+        <option value="$PROJECT_DIR$/NewReleasePrice.cs" />
+        <option value="$PROJECT_DIR$/Movie.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572488037876</updated>
       <workItem from="1572488046549" duration="5260000" />
-      <workItem from="1572493858863" duration="4198000" />
+      <workItem from="1572493858863" duration="6662000" />
     </task>
     <servers />
   </component>

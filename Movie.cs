@@ -1,13 +1,13 @@
-﻿namespace Ch01
+﻿using System;
+
+namespace Ch01
 {
     internal class Movie
     {
         private string _title;
-        private int _priceCode;
-
+        private Price _price;
+        
         public string Title => _title;
-
-        public int PriceCode => _priceCode;
 
         public const int Children = 2;
         public const int Regular = 0;
@@ -16,42 +16,35 @@
         public Movie(string title, int priceCode)
         {
             _title = title;
-            _priceCode = priceCode;
+            SetPriceCode(priceCode);
         }
 
-       
-
-        public double GetAmount(int dayRented)
+        private void SetPriceCode(int priceCode)
         {
-            double thisAmount=0;
-            switch (_priceCode)
+            switch (priceCode)
             {
                 case Regular:
-                {
-                    thisAmount += 2;
-                    if (dayRented > 2)
-                    {
-                        thisAmount += (dayRented - 2) * 1.5;
-                    }
-                }
+                    _price = new RegularPrice();
                     break;
                 case NewRelease:
-                {
-                    thisAmount += dayRented * 3;
-                }
+                    _price = new NewReleasePrice();
                     break;
                 case Children:
-                {
-                    thisAmount += 1.5;
-                    if (dayRented > 3)
-                    {
-                        thisAmount += (dayRented - 3) * 1.5;
-                    }
-                }
+                    _price = new ChildrenPrice();
                     break;
+                default:
+                    throw new ArgumentException("Incorrect Price Code");
             }
+        }
+        
+        public double GetAmount(int dayRented)
+        {
+            return _price.GetAmount(dayRented);
+        }
 
-            return thisAmount;
+        public int GetFrequentRenterPoints(int dayRented)
+        {
+            return _price.GetFrequentRenterPoints(dayRented);
         }
     }
 }
