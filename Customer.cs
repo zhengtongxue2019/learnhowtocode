@@ -25,10 +25,6 @@ namespace Ch01
             string result = "Rental Record For " + Name + "\r\n";
             foreach (var rental in _rentals)
             {
-                double thisAmount = 0;
-
-                thisAmount = rental.GetAmount();
-
                 //add frequentRenterPoints
                 frequentRenterPoints++;
                 if (rental.Movie.PriceCode == Movie.NewRelease && rental.DayRented>1)
@@ -37,8 +33,8 @@ namespace Ch01
                 }
 
                 //show figures for this rental
-                result +=  rental.Movie.Title + ":" + thisAmount + "\r\n";
-                totalAmount += thisAmount;
+                result +=  rental.Movie.Title + ":" + rental.GetAmount() + "\r\n";
+                totalAmount += rental.GetAmount();
             }
             
             result += "Amount owed is " + totalAmount + "\r\n";
