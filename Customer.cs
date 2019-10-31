@@ -23,47 +23,21 @@ namespace Ch01
             double totalAmount = 0;
             int frequentRenterPoints = 0;
             string result = "Rental Record For " + Name + "\r\n";
-            for (int index = 0; index < _rentals.Count; index++)
+            foreach (var rental in _rentals)
             {
                 double thisAmount = 0;
-                Rental each = _rentals[index];
 
-                switch (each.Movie.PriceCode)
-                {
-                    case Movie.Regular:
-                    {
-                        thisAmount += 2;
-                        if (each.DayRented>2)
-                        {
-                            thisAmount += (each.DayRented - 2) * 1.5;
-                        }
-                    }
-                        break;
-                    case Movie.NewRelease:
-                    {
-                        thisAmount += each.DayRented * 3;
-                    }
-                        break;
-                    case Movie.Children:
-                    {
-                        thisAmount += 1.5;
-                        if (each.DayRented>3)
-                        {
-                            thisAmount += (each.DayRented - 3) * 1.5;
-                        }
-                    }
-                        break;
-                }
+                thisAmount = rental.GetAmount();
 
                 //add frequentRenterPoints
                 frequentRenterPoints++;
-                if (each.Movie.PriceCode == Movie.NewRelease && each.DayRented>1)
+                if (rental.Movie.PriceCode == Movie.NewRelease && rental.DayRented>1)
                 {
                     frequentRenterPoints++;
                 }
 
                 //show figures for this rental
-                result +=  each.Movie.Title + ":" + thisAmount + "\r\n";
+                result +=  rental.Movie.Title + ":" + thisAmount + "\r\n";
                 totalAmount += thisAmount;
             }
             

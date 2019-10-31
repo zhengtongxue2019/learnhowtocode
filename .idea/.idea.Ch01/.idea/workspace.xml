@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88b232b-3c49-4c49-ac20-1d0f12065ad5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestCh01/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/TestCh01.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/Tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/Ch01.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/Ch01.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/TestCh01.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/TestCh01.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/bin/Debug/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/obj/Debug/TestCh01.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCh01/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/CHANGES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NOTICES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NUnit.3.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/NUnit.System.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ch01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch01.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Ch01.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Ch01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Ch01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Ch01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Ch01.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Ch01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ch01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Ch01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ch01.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rental.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Rental.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +28,8 @@
         <option value="$PROJECT_DIR$/Movie.cs" />
         <option value="$PROJECT_DIR$/Rental.cs" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/TestCh01/Tests.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/TestCh01/Tests.cs" />
         <option value="$PROJECT_DIR$/Customer.cs" />
       </list>
     </option>
@@ -129,12 +88,63 @@
       <option name="presentableId" value="Default" />
       <updated>1572488037876</updated>
       <workItem from="1572488046549" duration="5260000" />
-      <workItem from="1572493858863" duration="537000" />
+      <workItem from="1572493858863" duration="1947000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="113" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="24" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
