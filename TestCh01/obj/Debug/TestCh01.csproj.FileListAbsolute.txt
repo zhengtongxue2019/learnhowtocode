@@ -1,0 +1,9 @@
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\obj\Debug\TestCh01.csprojResolveAssemblyReference.cache
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\bin\Debug\TestCh01.dll
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\bin\Debug\TestCh01.pdb
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\bin\Debug\Ch01.exe
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\bin\Debug\nunit.framework.dll
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\bin\Debug\Ch01.pdb
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\bin\Debug\nunit.framework.xml
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\obj\Debug\TestCh01.dll
+C:\Users\zsp\RiderProjects\Ch01\TestCh01\obj\Debug\TestCh01.pdb

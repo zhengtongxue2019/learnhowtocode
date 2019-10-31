@@ -22,7 +22,7 @@ namespace Ch01
         {
             double totalAmount = 0;
             int frequentRenterPoints = 0;
-            string result = "Rental Record For " + Name + "\n";
+            string result = "Rental Record For " + Name + "\r\n";
             for (int index = 0; index < _rentals.Count; index++)
             {
                 double thisAmount = 0;
@@ -63,12 +63,12 @@ namespace Ch01
                 }
 
                 //show figures for this rental
-                result += "\t" + each.Movie.Title + "\t" + thisAmount + "\n";
+                result +=  each.Movie.Title + ":" + thisAmount + "\r\n";
                 totalAmount += thisAmount;
             }
             
-            result += "Amount owed is " + totalAmount + "\n";
-            result += "You earned " + frequentRenterPoints + " frequent renter points";
+            result += "Amount owed is " + totalAmount + "\r\n";
+            result += "You earned " + frequentRenterPoints + " frequent renter points。" + "\r\n";
             return result;
         }
     }
