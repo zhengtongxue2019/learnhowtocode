@@ -2,11 +2,6 @@
 {
     public class ChildrenPrice : Price
     {
-        public override int GetPriceCode()
-        {
-            return Movie.Children;
-        }
-
         public override double GetAmount(int dayRented)
         {
             var thisAmount = 1.5;

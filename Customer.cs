@@ -24,7 +24,7 @@ namespace Ch01
             var result = "Rental Record For " + Name + "\r\n";
             foreach (var rental in _rentals)
             {
-                result += rental.Movie.Title + ":" + rental.GetAmount() + "\r\n";
+                result += rental.RentaledMovie.Title + ":" + rental.GetAmount() + "\r\n";
             }
 
             result += "Amount owed is " + GetTotalAmount() + "\r\n";

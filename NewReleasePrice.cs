@@ -2,11 +2,6 @@
 {
     public class NewReleasePrice : Price
     {
-        public override int GetPriceCode()
-        {
-            return Movie.NewRelease;
-        }
-
         public override double GetAmount(int dayRented)
         {
             return dayRented * 3;

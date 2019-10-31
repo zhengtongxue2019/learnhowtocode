@@ -6,7 +6,7 @@ namespace Ch01
     {
         private string _title;
         private Price _price;
-        
+
         public string Title => _title;
 
         public const int Children = 2;
@@ -36,7 +36,7 @@ namespace Ch01
                     throw new ArgumentException("Incorrect Price Code");
             }
         }
-        
+
         public double GetAmount(int dayRented)
         {
             return _price.GetAmount(dayRented);
