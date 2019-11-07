@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Ch01
 {
@@ -24,7 +25,7 @@ namespace Ch01
             TextWriter textWriter = new StringWriter();
             textWriter.WriteLine("租借人：" + Name);
 
-            foreach (Rental rental in _rentals)
+            foreach (var rental in _rentals)
             {
                 //show figures for this rental
                 textWriter.WriteLine(rental.Movie.Title + ":" + rental.GetRentalAmount());
@@ -37,22 +38,12 @@ namespace Ch01
 
         private int GetTotalFrequentRenterPoints()
         {
-            int frequentRenterPoints = 0;
-            foreach (Rental rental in _rentals)
-            {
-                frequentRenterPoints += rental.GetFrequentRenterPoints();
-            }
-            return frequentRenterPoints;
+            return _rentals.Sum(rental => rental.GetFrequentRenterPoints());
         }
 
         private double GetTotalAmount()
         {
-            double totalAmount = 0;
-            foreach (Rental rental in _rentals)
-            {
-                totalAmount += rental.GetRentalAmount();
-            }
-            return totalAmount;
+            return _rentals.Sum(rental => rental.GetRentalAmount());
         }
     }
 }
