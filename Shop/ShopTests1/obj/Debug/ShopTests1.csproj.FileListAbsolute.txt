@@ -1,0 +1,10 @@
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\ShopTests1.dll
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\ShopTests1.pdb
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\nunit.framework.dll
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\Shop.exe
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\Shop.pdb
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\nunit.framework.pdb
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\bin\Debug\nunit.framework.xml
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\obj\Debug\ShopTests1.csprojResolveAssemblyReference.cache
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\obj\Debug\ShopTests1.dll
+C:\Users\zsp\RiderProjects\Ch01\Shop\ShopTests1\obj\Debug\ShopTests1.pdb

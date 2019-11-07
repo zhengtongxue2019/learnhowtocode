@@ -1,0 +1,9 @@
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\bin\Debug\Shop.exe.config
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\bin\Debug\Shop.exe
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\bin\Debug\Shop.pdb
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\bin\Debug\nunit.framework.dll
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\bin\Debug\nunit.framework.pdb
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\bin\Debug\nunit.framework.xml
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\obj\Debug\Shop.csprojResolveAssemblyReference.cache
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\obj\Debug\Shop.exe
+C:\Users\zsp\RiderProjects\Ch01\Shop\Shop\obj\Debug\Shop.pdb
