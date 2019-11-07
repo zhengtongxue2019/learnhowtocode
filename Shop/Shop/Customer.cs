@@ -34,9 +34,19 @@ namespace Ch01
                 totalAmount += GetRentalAmount(rental);
             }
 
-            textWriter.WriteLine("本次费用合计： " + totalAmount);
-            textWriter.WriteLine("累计获得" + frequentRenterPoints + " 积分。");
+            textWriter.WriteLine("本次费用合计： " + GetTotalAmount(totalAmount));
+            textWriter.WriteLine("累计获得" + GetTotalFrequentRenterPoints(frequentRenterPoints) + " 积分。");
             return textWriter.ToString();
+        }
+
+        private static int GetTotalFrequentRenterPoints(int frequentRenterPoints)
+        {
+            return frequentRenterPoints;
+        }
+
+        private static double GetTotalAmount(double totalAmount)
+        {
+            return totalAmount;
         }
 
         private static int GetFrequentRenterPoints(Rental rental)
