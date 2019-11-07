@@ -21,31 +21,36 @@ namespace Ch01
 
         public string Statement()
         {
-            double totalAmount = 0;
-            int frequentRenterPoints = 0;
             TextWriter textWriter = new StringWriter();
             textWriter.WriteLine("租借人：" + Name);
             foreach (Rental rental in _rentals)
             {
-                frequentRenterPoints += GetFrequentRenterPoints(rental);
-
                 //show figures for this rental
                 textWriter.WriteLine(rental.Movie.Title + ":" + GetRentalAmount(rental));
-                totalAmount += GetRentalAmount(rental);
             }
 
-            textWriter.WriteLine("本次费用合计： " + GetTotalAmount(totalAmount));
-            textWriter.WriteLine("累计获得" + GetTotalFrequentRenterPoints(frequentRenterPoints) + " 积分。");
+            textWriter.WriteLine("本次费用合计： " + GetTotalAmount());
+            textWriter.WriteLine("累计获得" + GetTotalFrequentRenterPoints() + " 积分。");
             return textWriter.ToString();
         }
 
-        private static int GetTotalFrequentRenterPoints(int frequentRenterPoints)
+        private int GetTotalFrequentRenterPoints()
         {
+            int frequentRenterPoints = 0;
+            foreach (Rental rental in _rentals)
+            {
+                frequentRenterPoints += GetFrequentRenterPoints(rental);
+            }
             return frequentRenterPoints;
         }
 
-        private static double GetTotalAmount(double totalAmount)
+        private double GetTotalAmount()
         {
+            double totalAmount = 0;
+            foreach (Rental rental in _rentals)
+            {
+                totalAmount += GetRentalAmount(rental);
+            }
             return totalAmount;
         }
 
