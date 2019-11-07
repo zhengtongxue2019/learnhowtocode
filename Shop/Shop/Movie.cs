@@ -48,14 +48,7 @@ namespace Ch01
 
         public int GetFrequentRenterPoints(int DayRented)
         {
-            int frequentRenterPoints = 0;
-            //add frequentRenterPoints
-            frequentRenterPoints++;
-            if (PriceCode == Movie.NewRelease && DayRented > 1)
-            {
-                frequentRenterPoints++;
-            }
-            return frequentRenterPoints;
+            return _price.GetFrequentRenterPoints(DayRented);
         }
 
         public double GetRentalAmount(int DayRented)
