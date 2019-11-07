@@ -12,6 +12,14 @@
         {
             _priceCode = priceCode;
         }
+
+        public virtual int GetFrequentRenterPoints(int DayRented)
+        {
+            int frequentRenterPoints = 0;
+            //add frequentRenterPoints
+            frequentRenterPoints++;
+            return frequentRenterPoints;
+        }
     }
 
     public class ChildrenPrice : Price
@@ -64,6 +72,18 @@
             double thisAmount = 0;
             thisAmount += DayRented * 3;
             return thisAmount;
+        }
+
+        public override int GetFrequentRenterPoints(int DayRented)
+        {
+            int frequentRenterPoints = 0;
+            //add frequentRenterPoints
+            frequentRenterPoints++;
+            if (DayRented > 1)
+            {
+                frequentRenterPoints++;
+            }
+            return frequentRenterPoints;
         }
     }
 
