@@ -34,17 +34,9 @@ namespace Ch01
                 default:
                     throw new ArgumentException("没有找到对应的类别");
             }
-
-            PriceCode = priceCode;
         }
 
         public string Title { get; }
-
-        public int PriceCode
-        {
-            get { return _price.GetPriceCode(); }
-            set { _price.SetPriceCode(value); }
-        }
 
         public int GetFrequentRenterPoints(int DayRented)
         {

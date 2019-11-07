@@ -2,16 +2,10 @@
 {
     public abstract class Price
     {
-        private int _priceCode;
-
+        
         public abstract int GetPriceCode();
 
         public abstract double GetRentalAmount(int DayRented);
-
-        public void SetPriceCode(int priceCode)
-        {
-            _priceCode = priceCode;
-        }
 
         public virtual int GetFrequentRenterPoints(int DayRented)
         {
