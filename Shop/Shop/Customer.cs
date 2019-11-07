@@ -32,12 +32,7 @@ namespace Ch01
 
                 thisAmount = GetRentalAmount(each);
 
-                //add frequentRenterPoints
-                frequentRenterPoints++;
-                if (each.Movie.PriceCode == Movie.NewRelease && each.DayRented>1)
-                {
-                    frequentRenterPoints++;
-                }
+                frequentRenterPoints = FrequentRenterPoints(frequentRenterPoints, each);
 
                 //show figures for this rental
                 textWriter.WriteLine(each.Movie.Title + ":" + thisAmount);
@@ -47,6 +42,17 @@ namespace Ch01
             textWriter.WriteLine("本次费用合计： " + totalAmount);
             textWriter.WriteLine("累计获得" + frequentRenterPoints + " 积分。");
             return textWriter.ToString();
+        }
+
+        private static int FrequentRenterPoints(int frequentRenterPoints, Rental each)
+        {
+//add frequentRenterPoints
+            frequentRenterPoints++;
+            if (each.Movie.PriceCode == Movie.NewRelease && each.DayRented > 1)
+            {
+                frequentRenterPoints++;
+            }
+            return frequentRenterPoints;
         }
 
         private static double GetRentalAmount(Rental rental)
