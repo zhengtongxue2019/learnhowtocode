@@ -60,34 +60,7 @@ namespace Ch01
 
         public double GetRentalAmount(int DayRented)
         {
-            double thisAmount = 0;
-            switch (PriceCode)
-            {
-                case Movie.Regular:
-                    {
-                        thisAmount += 2;
-                        if (DayRented > 2)
-                        {
-                            thisAmount += (DayRented - 2) * 1.5;
-                        }
-                    }
-                    break;
-                case Movie.NewRelease:
-                    {
-                        thisAmount += DayRented * 3;
-                    }
-                    break;
-                case Movie.Children:
-                    {
-                        thisAmount += 1.5;
-                        if (DayRented > 3)
-                        {
-                            thisAmount += (DayRented - 3) * 1.5;
-                        }
-                    }
-                    break;
-            }
-            return thisAmount;
+            return _price.GetRentalAmount(DayRented);
         }
     }
 }
