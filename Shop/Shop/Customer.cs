@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Ch01
+namespace Shop
 {
     internal class Customer
     {

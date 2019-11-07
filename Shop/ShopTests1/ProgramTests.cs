@@ -1,12 +1,7 @@
 ﻿using NUnit.Framework;
 using Shop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Shop.Tests
+namespace ShopTests1
 {
     [TestFixture()]
     public class ProgramTests

@@ -1,4 +1,4 @@
-﻿namespace Ch01
+﻿namespace Shop
 {
     internal class Rental
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ch01
+namespace Shop
 {
     internal class Movie
     {
